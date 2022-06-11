@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: log-access-streams
+Specification-Version: 1.0
+Specification-Vendor: ch.epfl.scala
+Implementation-Title: log-access-streams
+Implementation-Version: 1.0
+Implementation-Vendor: ch.epfl.scala
+Implementation-Vendor-Id: ch.epfl.scala
+Main-Class: kafka.logaccess.LogAccessStreamClassifier
+
