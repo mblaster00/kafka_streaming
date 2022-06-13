@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/sbtuser/target/scala-2.12/iris-classifier-streams_2.12-1.0.0-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IrisClassifierSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/IrisClassifierSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/bundle.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/bundle.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/KMeans_e3255d9bc770.node[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/KMeans_e3255d9bc770.node[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/KMeans_e3255d9bc770.node/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/KMeans_e3255d9bc770.node/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/KMeans_e3255d9bc770.node/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/KMeans_e3255d9bc770.node/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/VectorAssembler_5fe8423e0d0e.node[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/VectorAssembler_5fe8423e0d0e.node[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/VectorAssembler_5fe8423e0d0e.node/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/VectorAssembler_5fe8423e0d0e.node/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/VectorAssembler_5fe8423e0d0e.node/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/VectorAssembler_5fe8423e0d0e.node/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/model.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	model/root/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/sbtuser/target/scala-2.12/test-classes/model/root/node.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

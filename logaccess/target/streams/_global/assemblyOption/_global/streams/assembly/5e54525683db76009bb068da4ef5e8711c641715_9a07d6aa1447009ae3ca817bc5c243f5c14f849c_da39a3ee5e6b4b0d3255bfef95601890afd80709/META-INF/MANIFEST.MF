@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: mleap-base
+Implementation-Version: 0.14.0
+Specification-Vendor: ml.combust.mleap
+Specification-Title: mleap-base
+Implementation-Vendor-Id: ml.combust.mleap
+Specification-Version: 0.14.0
+Implementation-URL: https://github.com/combust/mleap
+Implementation-Vendor: ml.combust.mleap
+

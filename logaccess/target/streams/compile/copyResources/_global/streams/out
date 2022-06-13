@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/bundle.json,/home/sbtuser/target/scala-2.12/classes/model/bundle.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/model.json,/home/sbtuser/target/scala-2.12/classes/model/root/model.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/node.json,/home/sbtuser/target/scala-2.12/classes/model/root/node.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/KMeans_e3255d9bc770.node/model.json,/home/sbtuser/target/scala-2.12/classes/model/root/KMeans_e3255d9bc770.node/model.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/KMeans_e3255d9bc770.node/node.json,/home/sbtuser/target/scala-2.12/classes/model/root/KMeans_e3255d9bc770.node/node.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/VectorAssembler_5fe8423e0d0e.node/model.json,/home/sbtuser/target/scala-2.12/classes/model/root/VectorAssembler_5fe8423e0d0e.node/model.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sbtuser/src/main/resources/model/root/VectorAssembler_5fe8423e0d0e.node/node.json,/home/sbtuser/target/scala-2.12/classes/model/root/VectorAssembler_5fe8423e0d0e.node/node.json)[0m

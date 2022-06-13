@@ -1,0 +1,7 @@
+data
+logerror
+.vscode
+.metals
+.ipynb_checkpoints
+*.class
+*.log

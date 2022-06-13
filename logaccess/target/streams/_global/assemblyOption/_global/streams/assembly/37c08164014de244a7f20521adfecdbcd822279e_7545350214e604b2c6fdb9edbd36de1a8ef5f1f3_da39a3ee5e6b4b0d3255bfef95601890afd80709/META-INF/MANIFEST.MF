@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: iris-classifier-streams
+Specification-Version: 1.0.0
+Specification-Vendor: iris-classifier-streams
+Implementation-Title: iris-classifier-streams
+Implementation-Version: 1.0.0
+Implementation-Vendor: iris-classifier-streams
+Implementation-Vendor-Id: iris-classifier-streams
+Main-Class: kafka.iris.IrisStreamClassifier
+
