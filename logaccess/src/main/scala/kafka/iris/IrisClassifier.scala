@@ -12,7 +12,6 @@ import ml.combust.mleap.runtime.frame.{DefaultLeapFrame, Row}
 import resource._
 
 
-
 object IrisModel {
 
     val schema: StructType = StructType(
@@ -58,7 +57,7 @@ object IrisStreamClassifier extends App {
     val config: Properties = {
         val p = new Properties()
         p.put(StreamsConfig.APPLICATION_ID_CONFIG, "iris-classifier")
-        val bootstrapServers = if (args.length > 0) args(0) else "kafka:9092"
+        val bootstrapServers = if (args.length > 0) args(0) else "192.168.1.8:9092"
         p.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers)
         p
     }
@@ -69,13 +68,27 @@ object IrisStreamClassifier extends App {
 
         val builder: StreamsBuilder = new StreamsBuilder()
         val irisInput = builder.stream[String, String](inputTopic)
+
         val irisScore: KStream[String, String] = irisInput.map(
             (_, value) => {
                 val iris_values = value.split(",").map(_.toDouble)
-                ("", Seq(value, IrisModel.score(iris_values(0), iris_values(1), iris_values(2), 
-                iris_values(3), iris_values(4), iris_values(5)).toString).mkString(","))
+                 val prediction = IrisModel.score(iris_values(1), iris_values(2), iris_values(3), 
+                iris_values(4), iris_values(5), iris_values(6)).toDouble
+                val result = Map[String, Double] (
+                    "id" -> iris_values(0),
+                    "total_count" -> iris_values(1),
+                    "request_time_mean" -> iris_values(2),
+                    "daily_counts" -> iris_values(3),
+                    "is_weekend_ratio" -> iris_values(4),
+                    "td_mean" -> iris_values(5),
+                    "td_mean" -> iris_values(6),
+                    "prediction" -> prediction
+                )
+                val resultJson = scala.util.parsing.json.JSONObject(result).toString()
+                ("", resultJson)
             }
         )
+
         irisScore.to(outputTopic)
         builder.build()
     }

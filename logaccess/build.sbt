@@ -8,6 +8,7 @@ lazy val iris = (project in file("."))
         libraryDependencies ++= Seq(
             "org.scalatest" %% "scalatest" % "3.1.0" % Test,
             "org.apache.kafka" % "kafka-streams-test-utils" % "2.4.0" % Test,
+            "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2",
             "org.apache.kafka" %% "kafka-streams-scala" % "2.4.0",
             "ml.combust.bundle" %% "bundle-ml" % "0.14.0",
             "ml.combust.mleap" %% "mleap-runtime" % "0.14.0",
